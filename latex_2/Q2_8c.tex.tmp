@@ -1,0 +1,57 @@
+\hypertarget{Q2_8c}{}\section{Q2.\+c File Reference}
+\label{Q2_8c}\index{Q2.\+c@{Q2.\+c}}
+
+
+Medial axis transformation (M\+AT)  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+Include dependency graph for Q2.\+c\+:
+% FIG 0
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structdeque}{deque}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{Q2_8c_aac4a9bf6c900c2d342874bdc31a6ea5f}\label{Q2_8c_aac4a9bf6c900c2d342874bdc31a6ea5f}} 
+void {\bfseries init\+\_\+deque} (struct \hyperlink{structdeque}{deque} $\ast$dq, int init\+\_\+capacity)
+\item 
+\mbox{\Hypertarget{Q2_8c_a02d79fa3e22949f8e78c436f7e78e8ea}\label{Q2_8c_a02d79fa3e22949f8e78c436f7e78e8ea}} 
+void {\bfseries resize\+\_\+dbl} (struct \hyperlink{structdeque}{deque} $\ast$dq)
+\item 
+\mbox{\Hypertarget{Q2_8c_ac2563e7a3cbdfe741f24899da0f0116d}\label{Q2_8c_ac2563e7a3cbdfe741f24899da0f0116d}} 
+void {\bfseries resize\+\_\+half} (struct \hyperlink{structdeque}{deque} $\ast$dq)
+\item 
+\mbox{\Hypertarget{Q2_8c_aaa69f4e45cf34ce9c9852d7c300d07a8}\label{Q2_8c_aaa69f4e45cf34ce9c9852d7c300d07a8}} 
+void {\bfseries push\+\_\+front} (struct \hyperlink{structdeque}{deque} $\ast$dq, int x)
+\item 
+\mbox{\Hypertarget{Q2_8c_a334c5a86bec7928541b48b9b5f176eb9}\label{Q2_8c_a334c5a86bec7928541b48b9b5f176eb9}} 
+void {\bfseries push\+\_\+back} (struct \hyperlink{structdeque}{deque} $\ast$dq, int x)
+\item 
+\mbox{\Hypertarget{Q2_8c_a0126c3f939ae0e563521596258e552c4}\label{Q2_8c_a0126c3f939ae0e563521596258e552c4}} 
+void {\bfseries pop\+\_\+back} (struct \hyperlink{structdeque}{deque} $\ast$dq)
+\item 
+\mbox{\Hypertarget{Q2_8c_a6ecd8144bc88c3970e26df4c408236bd}\label{Q2_8c_a6ecd8144bc88c3970e26df4c408236bd}} 
+void {\bfseries pop\+\_\+front} (struct \hyperlink{structdeque}{deque} $\ast$dq)
+\item 
+\mbox{\Hypertarget{Q2_8c_a7ff0d87adfcc6bcde58ae441dd518c0f}\label{Q2_8c_a7ff0d87adfcc6bcde58ae441dd518c0f}} 
+void {\bfseries print\+\_\+dq} (struct \hyperlink{structdeque}{deque} $\ast$dq)
+\item 
+\mbox{\Hypertarget{Q2_8c_a840291bc02cba5474a4cb46a9b9566fe}\label{Q2_8c_a840291bc02cba5474a4cb46a9b9566fe}} 
+int {\bfseries main} (void)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Medial axis transformation (M\+AT) 
+
+\begin{DoxyAuthor}{Author}
+Harshit Verma
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+08/5/19 
+\end{DoxyDate}
